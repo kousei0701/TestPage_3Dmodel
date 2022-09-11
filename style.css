@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+body>div {
+    width: 1014px;
+    height: 768px;
+    margin: 0 auto;
+    padding:0 5px;
+    border:solid 1px #aaa;
+}
+
+.content {
+    float: left;
+    width: 768px;
+    margin-top: 14px;
+}
+
+.api_area {
+    float: right;
+    width: 240px;
+    margin-top: 95px;
+}
+
+.q_box {
+    margin-bottom: 10px;
+}
+
+.lead_txt {
+    margin-bottom: 10px;
+}
+
+/*
+.lead_txt:before {
+    content: "";
+    display: inline-block;
+    background: #FF33CC;
+    width: 10px;
+    height: 32px;
+    margin-right: 14px;
+    vertical-align: sub;
+}
+*/
+
+.sub_txt {
+    font-size: 20px;
+    margin-bottom: 7px;
+    text-indent: -1em;
+    margin-left: 1em;
+    height: 32px;
+}
+
+.sub_txt:before {
+    content: "";
+    display: inline-block;
+    background: #0159ab;
+    width: 8px;
+    height: 32px;
+    margin-right: 12px;
+    vertical-align: sub;
+}
+
+iframe {
+    display: block;
+    border:solid 1px #aaa!important;
+}
+
+.uliza-gesture-display {
+	border: solid 1px #aaa;
+}
+
+#movie_box_1,#movie_box_2 {
+    position: relative;
+}
+
+.movie_btn {
+    display: block;
+    cursor: pointer;
+    width: 150px;
+    text-align: left;
+    padding: 10px 10px 10px 60px;
+    font-size: 14px;
+    color: #FFF;
+    background-color: #0159ab;;
+    border-radius: 100px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 2;
+}
+
+.movie_btn::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    background: #00417d;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    transform: translateY(-50%);
+} 
+.movie_btn::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%) rotate(135deg);
+    border-top: solid 6px #fcff00;
+    border-right: solid 6px rgba(0,0,0,0);
+    border-bottom: solid 6px rgba(0,0,0,0);
+    border-left: solid 6px #fcff00;
+} 

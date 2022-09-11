@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keyword" content="進研ゼミ,小学講座,benesse,ベネッセ,小学生,学習,勉強,学校,授業,国語,算数,理科,社会,英語,チャレンジウェブ,チャレンジウエブ,ちゃれんじうぇぶ,チヤレンジウエブ,チャレンジ1年生,チャレンジ2年生,チャレンジ3年生,チャレンジ4年生,チャレンジ5年生,チャレンジ6年生,クイズ,ゲーム,マンガ">
+	<meta name="description" content="ベネッセ「進研ゼミ小学講座（チャレンジ）」の小学生向けサイト。クイズやゲーム、ムービーなどで楽しく勉強できる！ 「コラショ」「編集室」などのキャラクターのコーナーもたくさんあるよ。">
+
+<style type="text/css">
+<!--
+.uliza-gesture-display {border: solid 1px #aaa;}
+-->
+</style>
+
+<!--  ▽head内変更可能エリア▽-->
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./reset.css">
+	<script src="./jQuery-3.5.1.js"></script>
+	<title>オンライン授業｜進研ゼミ小学講座｜チャレンジウェブ</title>
+<!--  △head内変更可能エリア△-->
+</head>
+
+
+
+<body>
+	<div>
+	
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PL26KD4');</script>
+<!-- End Google Tag Manager -->
+
+<!-- もどるボタン出し分け -->
+
+<script type="text/javascript">
+	function dcha_app_backHome() {
+		dcha_app.backHome();
+	}
+</script>
+
+<link rel="stylesheet" type="text/css" href="./back.css">
+
+<script type="text/javascript">
+	function dcha_app_backHome() {
+		dcha_app.backHome();
+	}
+</script>
+
+<script type="text/javascript">
+	var ua = navigator.userAgent;
+	if (ua.indexOf('40S404') > 0 || ua.indexOf('TAB-A03-BR') > 0) {
+		document.write('<a class="common-back-button" href="../">もどる</a>');
+	}else {
+		document.write("<a class='common-back-button' href='../'>もどる</a>");
+	}
+</script>
+<!-- もどるボタン出し分け -->
+
+		<div class="content">
+			<h2 class="lead_txt"><img src="./title.png"></h2>
+
+			<!-- ▼▽ uliza 『チャンネル8』 埋め込み ▽▼ -->
+			<script type="text/javascript" charset="utf-8" defer src=""></script>
+			<!-- ▲△ uliza 『チャンネル8』 埋め込み △▲ -->
+
+			<!-- 動画下注意テキストインクルードファイル -->
+			<p style="padding:5px 10px;line-height: 1.5;font-weight: bold;font-size: 16px;">
+	<span style="color:#ff0000;">＜さいしょに　じゅんびしよう！＞</span><br>
+	★どうがの　がめんの　まんなかの　さんかくボタンを　おそう！<br>
+	★みぎの　「ボタンをおしてじゅんびかんりょう！」ボタンを　おそう！
+</p>
+<p style="padding:15px 10px;">★ライブじゅぎょうが　うまく　さいせいされない　ばあいは　このボタンを　おしてみてね  <button type="button" onclick="location.reload()">こう新</button></p>
+
+
+		</div>
+		<div class="api_area">
+			<div class="q_box">
+				<h3 class="sub_txt"><ruby>ぐるぐる回せるよ！</ruby></h3>
+				<div id="movie_box_1">
+					<div class="movie_view movie_btn"><p>ボタンをおして<br>じゅんびかんりょう！​</p></div>
+					
+					<!-- ▼▽ Live!アンケート埋め込み ▽▼ -->
+					<iframe width="240" height="480"src="" src_data="./人体模型.html"></iframe>
+					<!-- ▲△ Live!アンケート埋め込み △▲ -->
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		$(".movie_view").on('click',function(){
+			act_iframe_src_id("movie_box_1");
+			act_iframe_src_id("movie_box_2");
+		});
+
+		function act_iframe_src_id(act_id){
+			$("#"+act_id).find('iframe').each(function() {
+				if($(this).attr("src_data")){
+				src_data = $(this).attr("src_data");
+				$(this).attr("src",src_data);
+				$(this).removeAttr("src_data");
+				}
+			});
+		}
+		$('.movie_btn').on('click',function(){
+			$('.movie_btn').css('display','none');
+		});
+	</script>
+
+<script async type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1814448497"></script>
+</body>
+</html>

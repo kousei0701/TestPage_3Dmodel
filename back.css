@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.common-back-button{
+	text-align: center;
+	border-radius: 5px;
+	color: #343434;
+	font-size: 14px;
+	text-decoration: none;
+	width: 70px;
+	height: 14px;
+	line-height: 1;
+	display: block;
+	padding: 9px 0 8px 0;
+	margin: 3px 0 3px 3px;
+	background: #eaeaea;
+	font-weight: bold;
+	font-family: Meiryo, sans-serif;
+	clear: both;
+}
